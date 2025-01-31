@@ -602,7 +602,7 @@ transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 12px;
-  line-height: 1.5;
+  line-height: 2.0;
   letter-spacing: 0.04em;
   color: #fff;
   border: 1px solid #fff;
@@ -611,7 +611,7 @@ transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   height: 40px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   padding-left: 16px;
-  background-color: #2e2f42;
+  background-color: transparent;
   flex-shrink: 0;
   outline: none;
 }
@@ -661,7 +661,7 @@ transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   justify-content: center;
   align-items: center;*/
   top: 0;
-  background-color: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7));
+  background-color:rgba(46, 47, 66, 0.4);
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
   visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
   opacity: 0;
@@ -678,8 +678,8 @@ transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 .modal {
   padding: 72px 24px 24px 24px;
-  max-width: 408px;
-  max-height: 80%;
+  width: 408px;
+  min-height: 584px;
   border-radius: 4px;
   position: absolute;
   top: 50%;
@@ -760,11 +760,12 @@ transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   outline: transparent;
   width: 100%;
   height: 40px;
-  border: 1px solid #2E2F42;
+  border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   padding-left: 38px;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   flex-shrink: 0; 
+  
 }
 
 .modal-input:focus{
@@ -801,9 +802,9 @@ transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   width: 100%;
   min-height: 120px;
   padding: 8px 16px;
-  color: #2E2F42;
+  color: rgba(46, 47, 66, 0.4);
   border-radius: 4px;
-  border: 1px solid #2E2F42;
+  border: 1px solid rgba(46, 47, 66, 0.4);
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   background-color: transparent;
   margin-bottom: 16px;
@@ -837,7 +838,7 @@ transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 .modal-checkbox{
   border-radius: 2px;
-  border: 1px solid #2E2F42;
+  border: 1px solid rgba(46, 47, 66, 0.4);
   width: 16px;
   height: 16px;
   margin-right: 8px;
